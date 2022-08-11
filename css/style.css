@@ -24,12 +24,12 @@ header {
 
     height: var(--fullhd-h);
     width: var(--fullhd-w);
-    background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%, rgb(4, 109, 228) 0%, rgba(2,83,185,1) 100.2% );
+    background-image: radial-gradient(circle farthest-corner at 22.4% 21.7%, rgb(4, 109, 228) 0%, rgba(2, 83, 185, 1) 100.2%);
 
 
 }
 
-#img-tablet{
+#img-tablet {
 
     width: 550px;
     position: absolute;
@@ -97,7 +97,7 @@ header {
 
 }
 
-main{
+main {
 
     background-color: rgb(210, 210, 226);
     padding-top: 3%;
@@ -115,7 +115,7 @@ main{
 
 }
 
-.text-box{
+.text-box {
 
     width: 100%;
     margin-top: 1%;
@@ -127,13 +127,13 @@ main{
 
 }
 
-.ml-10{
+.ml-10 {
 
     margin-left: 10%;
 
 }
 
-.mt-2{
+.mt-2 {
 
     margin-top: 2%;
 
@@ -146,7 +146,7 @@ main{
 
 }
 
-.text-person{
+.text-person {
 
     margin-left: 10%;
     text-align: start;
@@ -167,7 +167,7 @@ main{
     color: var(--branco)
 }
 
-.text-img{
+.text-img {
 
     width: 80%;
     padding-left: 15%;
@@ -177,20 +177,20 @@ main{
 
 }
 
-.text-img-person{
+.text-img-person {
     width: 60%;
     border-radius: 100%;
     margin-left: 5%;
 
 }
 
-.d-flex{
+.d-flex {
 
     display: flex;
 
 }
 
-.d-block{
+.d-block {
 
     display: block;
 
@@ -244,7 +244,7 @@ main{
 
 }
 
-.btn-lang{
+.btn-lang {
 
     color: var(--branco);
     padding: 0.5%;
@@ -256,20 +256,21 @@ main{
 
 }
 
-#PT:hover{
+#PT:hover {
 
     color: rgb(90, 238, 90);
     font-size: 30px;
 
 }
-#EN:hover{
+
+#EN:hover {
 
     color: rgb(72, 197, 255);
     font-size: 30px;
 
 }
 
-footer{
+footer {
 
     width: 100%;
     padding: 3%;
@@ -277,7 +278,7 @@ footer{
 
 }
 
-footer p{
+footer p {
 
     text-align: center;
     font-size: 30px;
@@ -285,15 +286,9 @@ footer p{
 
 }
 
-@media screen and (min-width:600px) {
-
-
-    
-}
-
 @keyframes ladinho-esquerdo {
 
-    0% { 
+    0% {
         left: 0%;
     }
 
@@ -301,23 +296,127 @@ footer p{
 
 @keyframes ladinho-direito {
 
-    0% { 
+    0% {
         left: 100%;
     }
 
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1360px) {
+
+    header{
+
+        width: 1300px;
+        height: var(--hd-h);
+
+    }
+
+    #img-tablet {
+
+        width: 400px;
+        height: 90%;
+        position: absolute;
+        top: 5%;
+        left: 11%;
+
+    }
+
+    .caixa-texto h1 {
+
+        font-size: 40px;
+
+    }
+
+    .caixa-texto p {
+
+        text-align: justify;
+        margin-top: 3%;
+        font-size: 20px;
+        max-width: 80%;
+
+    }
+
+    .app {
+
+        display: flex;
+        flex-direction: column;
+        margin-left: 1%;
+        margin-top: 8%;
+        max-width: 50px;
+        max-height: 50px;
+
+    }
+
+    .img-app {
+
+        margin-left: 35%;
+        width: 25px;
+        height: 50px;
+
+    }
+
+    .name-app {
+
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 35%;
+        margin-top: 3%;
+        font-size: 10px;
+        color: white;
+
+    }
+
+    .col-1 {
+
+        position: relative;
+        width: 10%;
+        top: 5%;
+
+    }
+
+    .col-2 {
+
+        position: relative;
+        left: 55%;
+        bottom: 75%;
+
+    }
+
+    .text {
+
+        text-align: justify;
+        font-size: 20px;
+
+    }
+
+    .text-person {
+
+        margin-right: 15%;
+        text-align: start;
+        font-size: 15px;
+        max-width: 100%;
+
+    }
+
+    .text-title {
+
+        padding-bottom: 1%;
+        font-size: 30px;
+
+    }
+
+}
+
+@media only screen and (max-width: 620px) {
 
     header {
 
-        height: 1300px;    
+        height: 1200px;
         width: 100%;
+        background-image: radial-gradient(circle farthest-corner at 22.4% 21.7%, rgb(4, 109, 228) 0%, rgba(2, 83, 185, 1) 100.2%);
 
-    
     }
 
-    #img-tablet{
+    #img-tablet {
 
         width: 300px;
         position: absolute;
@@ -325,7 +424,7 @@ footer p{
         left: 11%;
         animation-name: ladinho-esquerdo;
         animation-duration: 1s;
-    
+
     }
 
     .app {
@@ -336,7 +435,7 @@ footer p{
         margin-top: 3%;
         max-width: 50px;
         max-height: 50px;
-    
+
     }
 
     .img-app {
@@ -344,17 +443,17 @@ footer p{
         margin-left: 35%;
         width: 25px;
         height: 50px;
-    
+
     }
-    
+
     .name-app {
-    
+
         font-family: Arial, Helvetica, sans-serif;
         margin-left: 35%;
         margin-top: 3%;
         font-size: 10px;
         color: white;
-    
+
     }
 
     .botoes {
@@ -366,69 +465,69 @@ footer p{
         position: absolute;
         width: 63%;
         height: 45%;
-    
+
     }
 
     .caixa-texto {
 
         position: absolute;
         left: 10%;
-        top: 60%;
+        top: 85%;
         animation-name: ladinho-direito;
         animation-duration: 1s;
-    
+
     }
-    
+
     .caixa-texto img {
-    
+
         width: 80%;
-    
+
     }
-    
+
     .caixa-texto h1 {
-    
+
         font-size: 40px;
-    
+
     }
-    
+
     .caixa-texto p {
-    
+
         text-align: justify;
         margin-top: 3%;
         font-size: 20px;
         max-width: 90%;
-    
+
     }
 
     .col-1 {
 
         position: relative;
         width: 10%;
-        margin-top: 5%;
-    
-    }
-    
-    .col-2 {
-    
-        position: relative;
-        left: 75%;
-        margin-top: 20%;
-    
+        margin-top: 10%;
+
     }
 
-    #class{
+    .col-2 {
+
+        position: relative;
+        left: 90%;
+        bottom: 100%;
+
+    }
+
+    #class {
 
         margin-left: 35%;
 
     }
 
-    main{
+    main {
 
         width: 100%;
 
     }
 
-    
+
 
     .container {
 
@@ -437,10 +536,10 @@ footer p{
         width: 95%;
         display: flex;
         flex-wrap: wrap;
-    
+
     }
 
-    .text-box{
+    .text-box {
 
         width: 100%;
         margin-top: 1%;
@@ -449,56 +548,56 @@ footer p{
         padding: 3%;
         background-color: rgb(245, 245, 245);
         border: 1px solid rgb(6, 8, 105);
-    
+
     }
 
     .text {
 
         text-align: justify;
         font-size: 20px;
-    
+
     }
 
-    .text-person{
+    .text-person {
 
         margin-right: 15%;
         text-align: start;
         font-size: 15px;
         max-width: 100%;
-    
+
     }
-    
+
     .text-title {
-    
+
         padding-bottom: 1%;
         font-size: 30px;
-    
+
     }
-    
-    .text-img{
-    
+
+    .text-img {
+
         width: 80%;
         padding-left: 15%;
         padding-top: 3%;
         padding-bottom: 3%;
         border-radius: 5%;
-    
+
     }
-    
-    .text-img-person{
+
+    .text-img-person {
         width: 60%;
         border-radius: 100%;
         margin-left: 5%;
-    
+
     }
 
-    #copy{
+    #copy {
 
         font-size: 20px;
 
     }
 
-    .btn-lang{
+    .btn-lang {
 
         color: var(--branco);
         padding: 0.5%;
@@ -507,7 +606,7 @@ footer p{
         border: 1px solid black;
         max-width: 50%;
         font-size: 25px;
-    
+
     }
 
     .linguas {
@@ -517,7 +616,7 @@ footer p{
         z-index: 15;
         bottom: 0px;
         right: 90%;
-    
+
     }
 
 }
