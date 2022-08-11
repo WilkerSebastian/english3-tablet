@@ -311,7 +311,7 @@ footer p{
 
     header {
 
-        height: 1000px;    
+        height: 1300px;    
         width: 100%;
 
     
@@ -373,7 +373,7 @@ footer p{
 
         position: absolute;
         left: 10%;
-        top: 55%;
+        top: 60%;
         animation-name: ladinho-direito;
         animation-duration: 1s;
     
